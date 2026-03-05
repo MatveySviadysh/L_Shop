@@ -1,0 +1,130 @@
+[
+  {
+    "id": "prod_1",
+    "title": "Ультратонкий 4K Монитор",
+    "price": 449.99,
+    "isAvailable": true,
+    "description": "Оцените потрясающее качество изображения с нашим 32-дюймовым монитором 4K UHD. Идеально подходит как для дизайнеров, так и для геймеров.",
+    "categories": ["Электроника", "Компьютеры"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+      "gallery": ["https://images.unsplash.com/photo-1547119957-637f8679db1e?auto=format&fit=crop&w=800&q=80"]
+    },
+    "delivery": {
+      "startTown": { "country": "США", "town": "Сан-Франциско" },
+      "earlyDate": "2026-03-20T10:00:00Z",
+      "price": 15.00
+    },
+    "discount": 10
+  },
+  {
+    "id": "prod_2",
+    "title": "Эргономичная Механическая Клавиатура",
+    "price": 129.50,
+    "isAvailable": true,
+    "description": "Тактильная, отзывчивая и долговечная. Эта механическая клавиатура оснащена RGB-подсветкой и кастомными переключателями.",
+    "categories": ["Электроника", "Аксессуары"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
+    },
+    "delivery": {
+      "startTown": { "country": "Германия", "town": "Берлин" },
+      "earlyDate": "2026-03-22T08:00:00Z",
+      "price": 5.99
+    }
+  },
+  {
+    "id": "prod_3",
+    "title": "Беспроводные Наушники с Шумоподавлением",
+    "price": 299.00,
+    "isAvailable": true,
+    "description": "Погрузитесь в музыку с лучшим в отрасли шумоподавлением и 30-часовым временем автономной работы.",
+    "categories": ["Аудио", "Электроника"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "gallery": ["https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"]
+    },
+    "delivery": {
+      "startTown": { "country": "Япония", "town": "Токио" },
+      "earlyDate": "2026-03-25T12:00:00Z",
+      "price": 25.00
+    },
+    "discount": 15
+  },
+  {
+    "id": "prod_4",
+    "title": "Центр Умного Дома",
+    "price": 89.00,
+    "isAvailable": false,
+    "description": "Управляйте всем домом с помощью голоса. Совместим с тысячами умных устройств.",
+    "categories": ["Умный дом", "Электроника"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "id": "prod_5",
+    "title": "Минималистичный Кожаный Рюкзак",
+    "price": 150.00,
+    "isAvailable": true,
+    "description": "Ручная работа из итальянской кожи премиум-класса. Стильный, прочный и достаточно вместительный для 15-дюймового ноутбука.",
+    "categories": ["Мода", "Аксессуары"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
+    },
+    "delivery": {
+      "startTown": { "country": "Италия", "town": "Флоренция" },
+      "earlyDate": "2026-03-21T09:00:00Z",
+      "price": 12.50
+    }
+  },
+  {
+    "id": "prod_6",
+    "title": "Профессиональный Нож Шеф-повара",
+    "price": 199.99,
+    "isAvailable": true,
+    "description": "Выкован из высокоуглеродистой японской стали. Идеально сбалансирован для точной нарезки.",
+    "categories": ["Кухня", "Дом"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1593611664162-f79aa73a59b3?auto=format&fit=crop&w=800&q=80"
+    },
+    "delivery": {
+      "startTown": { "country": "Япония", "town": "Осака" },
+      "earlyDate": "2026-03-24T14:00:00Z",
+      "price": 18.00
+    },
+    "discount": 5
+  },
+  {
+    "id": "prod_7",
+    "title": "Футболка из Органического Хлопка",
+    "price": 35.00,
+    "isAvailable": true,
+    "description": "Мягкая, дышащая и экологически чистая. Идеальный базовый элемент гардероба на каждый день.",
+    "categories": ["Мода", "Одежда"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+    },
+    "delivery": {
+      "startTown": { "country": "США", "town": "Остин" },
+      "earlyDate": "2026-03-19T11:00:00Z",
+      "price": 4.50
+    }
+  },
+  {
+    "id": "prod_8",
+    "title": "Портативная Кофемашина Эспрессо",
+    "price": 75.00,
+    "isAvailable": true,
+    "description": "Наслаждайтесь качественным эспрессо где угодно. Ручное управление, батарейки не требуются.",
+    "categories": ["Кухня", "Путешествия"],
+    "images": {
+      "preview": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
+    },
+    "delivery": {
+      "startTown": { "country": "Франция", "town": "Париж" },
+      "earlyDate": "2026-03-23T10:00:00Z",
+      "price": 8.00
+    }
+  }
+]
