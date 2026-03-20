@@ -1,0 +1,279 @@
+[
+  {
+    "id": "1773745714693",
+    "name": "Михаил Мелешко",
+    "email": "misakrot706@gmail.com",
+    "login": "koko",
+    "phone": "80445375741",
+    "password": "12345678",
+    "cart": [
+      {
+        "id": "prod_8",
+        "title": "Portable Espresso Machine",
+        "price": 75,
+        "isAvailable": true,
+        "description": "Enjoy cafe-quality espresso anywhere. Manual operation, no batteries required.",
+        "categories": [
+          "Kitchen",
+          "Travel"
+        ],
+        "images": {
+          "preview": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
+        },
+        "delivery": {
+          "startTown": {
+            "country": "France",
+            "town": "Paris"
+          },
+          "earlyDate": "2026-03-23T10:00:00Z",
+          "price": 8
+        }
+      },
+      {
+        "id": "prod_1",
+        "title": "Ультратонкий 4K Монитор",
+        "price": 449.99,
+        "isAvailable": true,
+        "description": "Оцените потрясающее качество изображения с нашим 32-дюймовым монитором 4K UHD. Идеально подходит как для дизайнеров, так и для геймеров.",
+        "categories": [
+          "Электроника",
+          "Компьютеры"
+        ],
+        "images": {
+          "preview": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1547119957-637f8679db1e?auto=format&fit=crop&w=800&q=80"
+          ]
+        },
+        "delivery": {
+          "startTown": {
+            "country": "США",
+            "town": "Сан-Франциско"
+          },
+          "earlyDate": "2026-03-20T10:00:00Z",
+          "price": 15
+        },
+        "discount": 10
+      },
+      {
+        "id": "prod_1",
+        "title": "Ультратонкий 4K Монитор",
+        "price": 449.99,
+        "isAvailable": true,
+        "description": "Оцените потрясающее качество изображения с нашим 32-дюймовым монитором 4K UHD. Идеально подходит как для дизайнеров, так и для геймеров.",
+        "categories": [
+          "Электроника",
+          "Компьютеры"
+        ],
+        "images": {
+          "preview": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1547119957-637f8679db1e?auto=format&fit=crop&w=800&q=80"
+          ]
+        },
+        "delivery": {
+          "startTown": {
+            "country": "США",
+            "town": "Сан-Франциско"
+          },
+          "earlyDate": "2026-03-20T10:00:00Z",
+          "price": 15
+        },
+        "discount": 10
+      }
+    ],
+    "deliveries": [
+      {
+        "id": "895232",
+        "items": [
+          {
+            "id": "prod_1",
+            "title": "Ultra-Slim 4K Monitor",
+            "price": 449.99,
+            "isAvailable": true,
+            "description": "Experience stunning visuals with our 32-inch 4K UHD monitor. Perfect for designers and gamers alike.",
+            "categories": [
+              "Electronics",
+              "Computers"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+              "gallery": [
+                "https://images.unsplash.com/photo-1547119957-637f8679db1e?auto=format&fit=crop&w=800&q=80"
+              ]
+            },
+            "delivery": {
+              "startTown": {
+                "country": "USA",
+                "town": "San Francisco"
+              },
+              "earlyDate": "2026-03-20T10:00:00Z",
+              "price": 15
+            },
+            "discount": 10
+          },
+          {
+            "id": "prod_2",
+            "title": "Ergonomic Mechanical Keyboard",
+            "price": 129.5,
+            "isAvailable": true,
+            "description": "Tactile, responsive, and built to last. This mechanical keyboard features RGB lighting and custom switches.",
+            "categories": [
+              "Electronics",
+              "Accessories"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
+            },
+            "delivery": {
+              "startTown": {
+                "country": "Germany",
+                "town": "Berlin"
+              },
+              "earlyDate": "2026-03-22T08:00:00Z",
+              "price": 5.99
+            }
+          }
+        ],
+        "status": "processing",
+        "createdAt": "2026-03-17T11:16:45.516Z"
+      },
+      {
+        "id": "195256",
+        "items": [
+          {
+            "id": "prod_6",
+            "title": "Professional Chef's Knife",
+            "price": 199.99,
+            "isAvailable": true,
+            "description": "Forged from high-carbon Japanese steel. Perfectly balanced for precision cutting.",
+            "categories": [
+              "Kitchen",
+              "Home"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1593611664162-f79aa73a59b3?auto=format&fit=crop&w=800&q=80"
+            },
+            "delivery": {
+              "startTown": {
+                "country": "Japan",
+                "town": "Osaka"
+              },
+              "earlyDate": "2026-03-24T14:00:00Z",
+              "price": 18
+            },
+            "discount": 5
+          },
+          {
+            "id": "prod_2",
+            "title": "Ergonomic Mechanical Keyboard",
+            "price": 129.5,
+            "isAvailable": true,
+            "description": "Tactile, responsive, and built to last. This mechanical keyboard features RGB lighting and custom switches.",
+            "categories": [
+              "Electronics",
+              "Accessories"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
+            },
+            "delivery": {
+              "startTown": {
+                "country": "Germany",
+                "town": "Berlin"
+              },
+              "earlyDate": "2026-03-22T08:00:00Z",
+              "price": 5.99
+            }
+          },
+          {
+            "id": "prod_3",
+            "title": "Wireless Noise-Canceling Headphones",
+            "price": 299,
+            "isAvailable": true,
+            "description": "Immerse yourself in music with industry-leading noise cancellation and 30-hour battery life.",
+            "categories": [
+              "Audio",
+              "Electronics"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+              "gallery": [
+                "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
+              ]
+            },
+            "delivery": {
+              "startTown": {
+                "country": "Japan",
+                "town": "Tokyo"
+              },
+              "earlyDate": "2026-03-25T12:00:00Z",
+              "price": 25
+            },
+            "discount": 15
+          }
+        ],
+        "status": "processing",
+        "createdAt": "2026-03-17T11:18:04.396Z"
+      },
+      {
+        "id": "411937",
+        "items": [
+          {
+            "id": "prod_5",
+            "title": "Minimalist Leather Backpack",
+            "price": 150,
+            "isAvailable": true,
+            "description": "Handcrafted from premium Italian leather. Sleek, durable, and spacious enough for a 15-inch laptop.",
+            "categories": [
+              "Fashion",
+              "Accessories"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
+            },
+            "delivery": {
+              "startTown": {
+                "country": "Italy",
+                "town": "Florence"
+              },
+              "earlyDate": "2026-03-21T09:00:00Z",
+              "price": 12.5
+            }
+          },
+          {
+            "id": "prod_6",
+            "title": "Professional Chef's Knife",
+            "price": 199.99,
+            "isAvailable": true,
+            "description": "Forged from high-carbon Japanese steel. Perfectly balanced for precision cutting.",
+            "categories": [
+              "Kitchen",
+              "Home"
+            ],
+            "images": {
+              "preview": "https://images.unsplash.com/photo-1593611664162-f79aa73a59b3?auto=format&fit=crop&w=800&q=80"
+            },
+            "delivery": {
+              "startTown": {
+                "country": "Japan",
+                "town": "Osaka"
+              },
+              "earlyDate": "2026-03-24T14:00:00Z",
+              "price": 18
+            },
+            "discount": 5
+          }
+        ],
+        "status": "processing",
+        "createdAt": "2026-03-17T11:19:55.287Z",
+        "address": {
+          "country": "Belarus",
+          "town": "Minsk",
+          "street": "Ola",
+          "houseNumber": "73"
+        }
+      }
+    ]
+  }
+]
