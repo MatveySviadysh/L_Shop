@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { getUsers } from '@/lib/db';
+import { User } from '@/types';
 
 export async function GET() {
   const cookieStore = await cookies();
@@ -11,7 +12,7 @@ export async function GET() {
   }
 
   const users = getUsers();
-  const user = users.find((u: any) => u.id === sessionId);
+  const user = users.find((u: User) => u.id === sessionId);
 
   if (!user) {
     return NextResponse.json({ message: 'Сессия недействительна' }, { status: 401 });
