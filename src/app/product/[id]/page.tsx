@@ -19,7 +19,7 @@ export default function ProductPage() {
 
   const checkAuth = async () => {
     try {
-      const res = await fetch('/api/auth/me');
+      const res = await fetch('/api/auth/me'  );
       if (res.ok) {
         const data = await res.json();
         setUser(data);

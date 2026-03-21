@@ -18,17 +18,27 @@ export interface Product {
   };
   delivery?: {
     startTown: Address;
-    earlyDate: string | Date; // Date is often stringified in JSON
+    earlyDate: string | Date; 
     price: number;
   };
   discount?: number;
 }
 
+export interface Delivery {
+  id: string;
+  items: Product[];
+  status: 'pending' | 'processing' | 'shipped' | 'delivered';
+  createdAt: string;
+  address: Address;
+}
+
 export interface User {
+  id: string;
   name: string;
   email: string;
   login: string;
   phone: string;
+  password: string;
   cart: Product[];
-  deliveries: any[]; // Can be more specific later
+  deliveries: Delivery[];
 }

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { getUsers, saveUsers } from '@/lib/db';
+import { Delivery } from '@/types';
 
 export async function POST(request: Request) {
   const cookieStore = await cookies();
@@ -16,7 +17,7 @@ export async function POST(request: Request) {
   }
 
   const users = getUsers();
-  const userIndex = users.findIndex((u: any) => u.id === sessionId);
+  const userIndex = users.findIndex((u) => u.id === sessionId);
 
   if (userIndex === -1) {
     return NextResponse.json({ message: 'Пользователь не найден' }, { status: 401 });
@@ -27,12 +28,12 @@ export async function POST(request: Request) {
     return NextResponse.json({ message: 'Корзина пуста' }, { status: 400 });
   }
 
-  const newDelivery = {
+  const newDelivery: Delivery = {
     id: Math.floor(Math.random() * 1000000).toString(),
     items: [...user.cart],
     status: 'pending',
     createdAt: new Date().toISOString(),
-    address: address
+    address
   };
 
   user.deliveries.push(newDelivery);

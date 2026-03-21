@@ -2,12 +2,14 @@ import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { getUsers } from '@/lib/db';
 import bcrypt from 'bcryptjs';
+import { User } from '@/types';
+
 
 export async function POST(request: Request) {
   const { login, password } = await request.json();
   const users = getUsers();
 
-  const user = users.find((u: any) => u.login === login || u.email === login);
+  const user = users.find((u: User) => u.login === login || u.email === login);
 
   let isMatch = false;
   try {
@@ -25,7 +27,7 @@ export async function POST(request: Request) {
     httpOnly: true,
     secure: true,
     sameSite: 'none',
-    maxAge: 10 * 60 * 1000 // 10 minutes
+    maxAge: 10 * 60 * 1000
   });
 
   return NextResponse.json({ message: 'Вход выполнен успешно', user: { name: user.name, login: user.login, cart: user.cart, deliveries: user.deliveries } });

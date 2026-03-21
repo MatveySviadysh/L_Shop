@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { Product } from '@/types';
 
 const PRODUCTS_FILE = path.join(process.cwd(), 'src/data/products.json');
 
@@ -16,7 +17,7 @@ export async function GET(
 ) {
   const { id } = await params;
   const products = getProducts();
-  const product = products.find((p: any) => String(p.id) === id);
+  const product = products.find((p: Product) => String(p.id) === id);
 
   if (!product) {
     return NextResponse.json({ message: 'Товар не найден' }, { status: 404 });

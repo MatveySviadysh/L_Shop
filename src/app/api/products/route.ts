@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { Product } from '@/types';
 
 const PRODUCTS_FILE = path.join(process.cwd(), 'src/data/products.json');
 
@@ -18,7 +19,7 @@ export async function GET(request: Request) {
   let products = getProducts();
 
   if (search) {
-    products = products.filter((p: any) => 
+    products = products.filter((p: Product) => 
       p.title.toLowerCase().includes(search) || 
       p.description.toLowerCase().includes(search) ||
       p.categories.some((c: string) => c.toLowerCase().includes(search))
@@ -26,9 +27,9 @@ export async function GET(request: Request) {
   }
 
   if (sort === 'price-asc') {
-    products.sort((a: any, b: any) => a.price - b.price);
+    products.sort((a: Product, b: Product) => a.price - b.price);
   } else if (sort === 'price-desc') {
-    products.sort((a: any, b: any) => b.price - a.price);
+    products.sort((a: Product, b: Product) => b.price - a.price);
   }
 
   return NextResponse.json(products);
